@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.b8fc6f60.css",
-    "main.js": "/static/js/main.1761a03a.js",
-    "static/js/453.fdb203d9.chunk.js": "/static/js/453.fdb203d9.chunk.js",
-    "static/media/booking-bg.svg": "/static/media/booking-bg.f08ffbc66046ab89247b.svg",
-    "static/media/dsLogo.svg": "/static/media/dsLogo.9e193cef87a0476949801a9fe4ab35a2.svg",
-    "static/media/valuecare.svg": "/static/media/valuecare.5456133bcbfaec35082cf33e150361a0.svg",
-    "static/media/inlife.svg": "/static/media/inlife.33447333013409200cd643082e76a06c.svg",
-    "static/media/aboutus-bg.svg": "/static/media/aboutus-bg.6ead9eaa3f274d0affe8.svg",
-    "static/media/cocolife.svg": "/static/media/cocolife.aac78d42bed7dc98c5748026f7902748.svg",
-    "static/media/icare.svg": "/static/media/icare.d02ceaee78d5ef85194eac9f842f0ed4.svg",
-    "static/media/etiqua.svg": "/static/media/etiqua.923d5e5c2560770506bd0cea90d62cec.svg",
-    "index.html": "/index.html",
-    "main.b8fc6f60.css.map": "/static/css/main.b8fc6f60.css.map",
-    "main.1761a03a.js.map": "/static/js/main.1761a03a.js.map",
-    "453.fdb203d9.chunk.js.map": "/static/js/453.fdb203d9.chunk.js.map"
+    "main.css": "/Test/static/css/main.67870734.css",
+    "main.js": "/Test/static/js/main.fdd9bd85.js",
+    "static/js/453.fdb203d9.chunk.js": "/Test/static/js/453.fdb203d9.chunk.js",
+    "static/media/booking-bg.svg": "/Test/static/media/booking-bg.e31c7a8ac4e49a33e195.svg",
+    "static/media/dsLogo.svg": "/Test/static/media/dsLogo.89bbb7a480249bc23ca7210e5788cc28.svg",
+    "static/media/valuecare.svg": "/Test/static/media/valuecare.a0306d7ced0949f52205d3f47b880924.svg",
+    "static/media/inlife.svg": "/Test/static/media/inlife.ca206cc66855411d7d20fd5463e224a0.svg",
+    "static/media/aboutus-bg.svg": "/Test/static/media/aboutus-bg.d23b39aba42d74c642fe.svg",
+    "static/media/cocolife.svg": "/Test/static/media/cocolife.9bb86bae706195627e373151f16800bf.svg",
+    "static/media/icare.svg": "/Test/static/media/icare.e54e7601a262722c2c67b72cf3a8be50.svg",
+    "static/media/etiqua.svg": "/Test/static/media/etiqua.95bdd036309f8c90568d7e7133287621.svg",
+    "index.html": "/Test/index.html",
+    "main.67870734.css.map": "/Test/static/css/main.67870734.css.map",
+    "main.fdd9bd85.js.map": "/Test/static/js/main.fdd9bd85.js.map",
+    "453.fdb203d9.chunk.js.map": "/Test/static/js/453.fdb203d9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8fc6f60.css",
-    "static/js/main.1761a03a.js"
+    "static/css/main.67870734.css",
+    "static/js/main.fdd9bd85.js"
   ]
 }
