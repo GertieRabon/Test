@@ -47,7 +47,7 @@ const Homepage = () => {
       <Navbar />
 
       <div className={styles.hero}>
-        <img className={styles.logo} src="/logos/Clinic.png" />
+        <img className={styles.logo} src={process.env.PUBLIC_URL + "/logos/Clinic.png"} alt="Clinic Logo" />
       </div>
 
       <div className={styles.section1}>
@@ -56,11 +56,11 @@ const Homepage = () => {
           ref={aboutUsRef}
         >
           <div className={styles["frame-1"]}>
-            <img className={styles.storefront} src="storefront.jpg" />
-            <img className={styles.headshot} src="headshot.jpg" />
-            <img className={styles.seatcloseup} src="seatcloseup.jpg" />
-            <img className={styles.seatbehind3} src="seatbehind3.jpg" />
-            <img className={styles.frontdesk} src="frontdesk.jpg" />
+            <img className={styles.storefront} src={process.env.PUBLIC_URL + "/storefront.jpg"} alt="Storefront" />
+            <img className={styles.headshot} src={process.env.PUBLIC_URL + "/headshot.jpg"} alt="Headshot" />
+            <img className={styles.seatcloseup} src={process.env.PUBLIC_URL + "/seatcloseup.jpg"} alt="Seat Closeup" />
+            <img className={styles.seatbehind3} src={process.env.PUBLIC_URL + "/seatbehind3.jpg"} alt="Seat Behind" />
+            <img className={styles.frontdesk} src={process.env.PUBLIC_URL + "/frontdesk.jpg"} alt="Front Desk" />
           </div>
           <div className={styles["frame-2"]}>
             <div className={styles.Heading}>
