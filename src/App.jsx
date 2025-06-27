@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom"; // Changed to HashRouter
 import Services from "./Services/Services";
 import Contact from "./Contact/Contact";
 import Homepage from "./Homepage/Homepage";
@@ -11,7 +11,7 @@ import Appointment from "./Admin/Appointment";
 import Dashboard from "./Admin/Dashboard";
 import Inquiry from "./Admin/Inquiry";
 import ProtectedRoute from "./components/ProtectedRoute";
-import Profile from "./Admin/Profile"; // Example, create this if not present
+import Profile from "./Admin/Profile";
 import ScrollToTop from './components/ScrollToTop';
 
 function App() {
@@ -25,7 +25,6 @@ function App() {
         <Route path="/adminlogin" element={<AdminLogin />} />
         <Route path="/aboutus" element={<AboutUs />} />
         <Route path="/booking" element={<Booking />} />
-        
         <Route
           path="/admin/appointment"
           element={
@@ -50,10 +49,6 @@ function App() {
             </ProtectedRoute>
           }
         />
-        <Route path="/admin/appointment" element={<Appointment />} />
-        <Route path="/admin/dashboard" element={<Dashboard />} />
-        {/* Add more routes as needed */}
-        <Route path="/admin/inquiry" element={<Inquiry />} />
         <Route path="/admin/profile" element={<Profile />} />
       </Routes>
     </Router>
